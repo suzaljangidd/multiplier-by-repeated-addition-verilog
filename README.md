@@ -1,6 +1,6 @@
 # Multiplier by Repeated Addition (Verilog)
 
-## 📌 Project Overview
+##  Project Overview
 This project implements a **Multiplier using Repeated Addition** in **Verilog HDL** based on a **Datapath and Controller (FSM)** architecture.
 
 The multiplication is performed by:
@@ -14,7 +14,7 @@ This project was fully **designed, simulated, debugged, and verified** by me.
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 - Datapath + Controller separation
 - Finite State Machine (FSM) based controller
 - Fully synchronous design
@@ -60,56 +60,62 @@ Multiplier-by-Repeated-Addition-Verilog
 - **Language:** Verilog HDL
 
 ### Compile & Run
--iverilog -g 2012 -o mul_out rtl/*.v tb/*.v
--vvp mul_out
--gtkwave waveform/Mul.vcd
+- iverilog -g 2012 -o mul_out Datapath.v Controller.v Testbench.v
+- **vvp mul_out**
+- **gtkwave waveform/Mul.vcd**
 
 ---
 
-✅ Example Result
-
-Input:
+### Example Result
+- Input:
 A = 5
 B = 4
 
-Output:
-Product (P) = 20
+- Output:
+  Product (P) = 20
 
-done = 1
+- done = 1
 
-The result is verified using:
+- The result is verified using:
 
-Terminal output
+- Terminal output
 
-GTKWave waveform
+- GTKWave waveform
 
-🎯 Key Learnings
+---
 
-Datapath and Controller based design
+### Key Learnings
 
-FSM implementation in Verilog
+- Datapath and Controller based design
 
-Control signal timing and synchronization
+- FSM implementation in Verilog
 
-Debugging using waveforms
+- Control signal timing and synchronization
 
-Writing effective testbenches
+- Debugging using waveforms
 
-🚀 Future Enhancements
+- Writing effective testbenches
 
-Signed multiplication
+---
 
-Parameterized bit-width
+### Future Enhancements
 
-Optimized multiplier
+- Signed multiplication
 
-FPGA synthesis
+- Parameterized bit-width
 
-👨‍💻 Author
+- Optimized multiplier
 
-Suzal Jandid
-Electronics & Communication Engineering
-Interest: RTL Design, Digital Systems, VLSI
+- FPGA synthesis
+
+---
+
+### Author
+
+**Suzal Jangid**  
+Electronics & Communication Engineering  
+**Interest:** RTL Design, Digital Systems, VLSI
 
 
 ⭐ If you found this project useful, feel free to star the repository!
+
