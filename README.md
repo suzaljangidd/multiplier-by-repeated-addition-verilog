@@ -60,10 +60,9 @@ Multiplier-by-Repeated-Addition-Verilog
 - **Language:** Verilog HDL
 
 ### Compile & Run
-```bash
-iverilog -g 2012 -o mul_out rtl/*.v tb/*.v
-vvp mul_out
-gtkwave waveform/Mul.vcd
+-iverilog -g 2012 -o mul_out rtl/*.v tb/*.v
+-vvp mul_out
+-gtkwave waveform/Mul.vcd
 
 ---
 
@@ -111,5 +110,6 @@ FPGA synthesis
 Suzal Jandid
 Electronics & Communication Engineering
 Interest: RTL Design, Digital Systems, VLSI
+
 
 ⭐ If you found this project useful, feel free to star the repository!
