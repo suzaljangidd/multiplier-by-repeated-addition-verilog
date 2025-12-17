@@ -35,21 +35,21 @@ This project was fully **designed, simulated, debugged, and verified** by me.
 ---
 
 ## 📁 Folder Structure
-Multiplier-by-Repeated-Addition-Verilog
-├── rtl/
-│ ├── Mul.v # Datapath
-│ ├── Mul_Contr.v # Controller (FSM)
-│ └── submodules.v # Registers, counter, adder, comparator
-│
-├── tb/
-│ └── Mul_test.v # Testbench
-│
-├── waveform/
-│ └── Mul_waveform.png # GTKWave simulation result
-│
-├── output/
-│ └── terminal_output.png # Terminal simulation output
-│
+Multiplier-by-Repeated-Addition-Verilog/  
+├── rtl/  
+│ ├── Mul.v           # Datapath  
+│ ├── Mul_Contr.v     # Controller (FSM)  
+│ └── submodules.v    # Registers, counter, adder, comparator  
+│  
+├── tb/  
+│ └── Mul_test.v      # Testbench  
+│  
+├── waveform/  
+│ └── Mul_waveform.png # GTKWave simulation result  
+│  
+├── output/  
+│ └── terminal_output.png # Terminal simulation output  
+│  
 └── README.md
 
 ---
@@ -118,4 +118,5 @@ Electronics & Communication Engineering
 
 
 ⭐ If you found this project useful, feel free to star the repository!
+
 
